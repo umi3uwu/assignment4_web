@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- CSS Initialization -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="body">
+
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">umi3</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">My Portfolio</a>
+                    <a class="nav-link" href="index.html">Priorities & Goals</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section class="profile-card py-5">
+        <div class="image">
+            <img src="images/pfp.jpg" alt="My Profile Photo" class="profile-img">
+        </div>
+        <div class="text-data text-center">
+            <span class="name">Alimzhan Kuzbayev</span>
+            <span class="age">19</span>
+            <span class="occupation"><i class='bx bx-briefcase-alt-2'></i>Software Engineer</span>
+            <span class="location"><i class='bx bx-location-plus'></i> Astana</span>
+        </div>
+    </section>
+
+    
+    <section class="hobbies-section py-5">
+        <h2 class="text-center py-5">My Hobbies</h2>
+        <div class="container">
+            <div class="row hobbies-grid">
+                
+                <div class="hobby-column">
+                    <div class="service-item">
+                        <div class="service-item-inner">
+                            <h4>Gym</h4>
+                            <img src="images/gym.jpg" alt="Gym" class="hobby-photo">
+                            <p>Working out at the gym keeps me active and healthy.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-item-inner">
+                            <h4>Coding</h4>
+                            <img src="images/coding.jpg" alt="Coding" class="hobby-photo">
+                            <p>Coding is my passion. I love building software.</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="hobby-column">
+                    <div class="service-item">
+                        <div class="service-item-inner">
+                            <h4>Computer Games</h4>
+                            <img src="images/computer_games.png" alt="Computer Games" class="hobby-photo">
+                            <p>I enjoy playing computer games during my free time to relax.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-item">
+                        <div class="service-item-inner">
+                            <h4>Eating Meal</h4>
+                            <img src="images/Meal.jpg" alt="Eating Meal" class="hobby-photo">
+                            <p>Mostly I enjoy watching Mukbang videos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="contact-section py-5">
+        <h2 class="text-center">Contact Me</h2>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Send Me a Message</h3>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        <div id="emailHelp" class="form-text email-help">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="message" rows="3" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-custom">Send Message</button>
+                </form>
+                
+            </div>
+            <div class="contact-info">
+                <span class="contactInfo">Contact Information</span>
+                <span class="phoneNumb"><i class='bx bx-phone'></i>+7 747 144 66 95</span>
+                <span class="email"><i class='bx bx-envelope'></i>231008@astanait.edu.kz</span>
+                <span class="locationC"><i class='bx bx-map'></i>Kazakhstan, Astana, Astana IT University</span>
+                <a href="https://go.2gis.com/fbqa7u" class="btnC secondaryC" target="_blank">2GIS</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="footer" class="py-3">
+        <p class="text-center">&copy; 2024 by umi3awa. All rights reserved.</p>
+    </section>
+
+</body>
+</html>

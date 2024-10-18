@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.navbar {
+    background-color: #494D5F !important; /* Force this background color */
+    color: white !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navbar-brand {
+    color: white !important;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin: 0 20px;
+}
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #494D5F;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    background-color: #4CAF50;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.profile-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.text-data{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+.text-data .name{
+    font-size: 22px;
+    font-weight: 500;
+}
+.text-data .age{
+    font-size: 20px;
+    font-weight: 400;
+}
+.text-data .occupation{
+    font-size: 20px;
+    font-weight: 400;
+}
+.text-data .occupation i{
+    font-size: 22px;
+    margin-right: 5px;
+    color: #4CAF50;
+    vertical-align: middle;
+}
+.text-data .location {
+    font-size: 20px;
+    font-weight: 400;
+}
+.text-data .location i {
+    font-size: 22px;
+    margin-right: 5px;
+    color: #4CAF50;
+    vertical-align: middle;
+}
+.button-container {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.button-container nav ul {
+    display: inline-block;
+    margin-left: 25px; 
+}
+
+a.btn {
+    display: inline-block;
+    padding: 10px 20px; 
+    border-radius: 27px;
+    text-align: center;
+    color: #fff;
+    background-color: #4CAF50; 
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    cursor: pointer; 
+}
+
+a.btn:hover {
+    background-color: #45a049; 
+}
+
+.primary {
+    background-color: #4CAF50;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.contact-wrapper{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+.contact-form{
+    padding: 30px;
+    text-align: center;
+}
+.contact-form h3{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+input {
+    width: 350px;
+    border: 2px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    border-radius: 27px;
+    font-weight: 600;
+    font-size: 36spx;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: #45a049;
+}
+.contact-info{
+    display: flex;  
+    flex-direction: column;
+    margin-top: 30px;
+}
+.contact-info .contactInfo{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+}
+.contact-info .phoneNumb{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+}   
+.contact-info .phoneNumb i{
+    font-size: 27px;
+    margin-right: 5px;
+    color: #4CAF50;
+    vertical-align: middle;
+}
+.contact-info .email{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 400;    
+}
+.contact-info .email i{
+    font-size: 27px;
+    margin-right: 5px;
+    color: #4CAF50;
+    vertical-align: middle;
+}
+.contact-info .locationC{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 400;    
+}
+.contact-info .locationC i{
+    font-size: 27px;
+    margin-right: 5px;
+    color: #4CAF50;
+    vertical-align: middle;
+}
+a.btnC {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 27px;
+    text-align: center;
+    color: #fff;
+    background-color: #4CAF50;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    width: 200px;
+}
+
+a.btnC:hover {
+    background-color: #45a049; 
+}
+
+.primaryC {
+    background-color: #4CAF50;
+}
+.secondaryC{
+    background-color: #4CAF50; 
+    text-align: center;
+    margin: 50px 0 0 200px
+}
+.service-section {
+    padding: 20px;
+    flex: 1;  /* Ensure the content takes up the full space */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.hobby-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.service-item {
+    background-color: #636882;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.equal-height {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-item-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-item h4 {
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+
+.icon i {
+    font-size: 48px;
+    color: #4CAF50;
+}
+
+.hobby-photo {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.button-wrapper {
+    text-align: center;
+    margin: 0 0;
+    flex-shrink: 0;
+}
+
+a.btnC {
+    display: inline-block;
+    padding: 10px 20px; 
+    border-radius: 27px;
+    text-align: center;
+    color: #fff;
+    background-color: #4CAF50; 
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    cursor: pointer; 
+}
+
+a.btnC:hover {
+    background-color: #45a049; 
+}
+.btn-custom {
+    display: inline-block;
+    padding: 10px 20px; 
+    border-radius: 27px;
+    text-align: center;
+    color: #fff;
+    background-color: #4CAF50 !important; /* Adjust color as needed */
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    cursor: pointer; 
+}
+
+.btn-custom:hover {
+    background-color: #45a049 !important; /* Adjust hover color as needed */
+}
+.email-help {
+    color: #fff; /* Change to your desired color */
+}
